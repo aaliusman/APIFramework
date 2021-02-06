@@ -1,0 +1,200 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "BBHouse",
+    "phone_number": "215-000-0000",
+    "address": "Bensalem",
+    "website": "www.google.com",
+    "language": "English",
+    "types": [
+        "shoeShop",
+        "appleStore"
+    ],
+    "location": {
+        "lat": -12.23455,
+        "lng": 33.23232
+    }
+}
+HTTP/1.1 200 OK
+Date: Sat, 06 Feb 2021 17:00:43 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "1141923d266d44e58a616c597a44b814",
+    "scope": "APP",
+    "reference": "e701aae73e956c65b60719831d2c15c2e701aae73e956c65b60719831d2c15c2",
+    "id": "e701aae73e956c65b60719831d2c15c2"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=1141923d266d44e58a616c597a44b814
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=1141923d266d44e58a616c597a44b814
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 06 Feb 2021 17:00:46 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 222
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-12.23455",
+        "longitude": "33.23232"
+    },
+    "accuracy": "50",
+    "name": "BBHouse",
+    "phone_number": "215-000-0000",
+    "address": "Bensalem",
+    "types": "shoeShop,appleStore",
+    "website": "www.google.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Usman",
+    "phone_number": "215-000-0000",
+    "address": "Langhorne",
+    "website": "www.google.com",
+    "language": "Urdu",
+    "types": [
+        "pharmacy",
+        "hpStore"
+    ],
+    "location": {
+        "lat": -23.64747,
+        "lng": 33.23232
+    }
+}
+HTTP/1.1 200 OK
+Date: Sat, 06 Feb 2021 17:00:49 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "afd69e7b9bda7414809fb83725ebec92",
+    "scope": "APP",
+    "reference": "5eab799d55210c56bb8ccbd508d5f3855eab799d55210c56bb8ccbd508d5f385",
+    "id": "5eab799d55210c56bb8ccbd508d5f385"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=afd69e7b9bda7414809fb83725ebec92
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=afd69e7b9bda7414809fb83725ebec92
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 06 Feb 2021 17:00:50 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 215
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-23.64747",
+        "longitude": "33.23232"
+    },
+    "accuracy": "50",
+    "name": "Usman",
+    "phone_number": "215-000-0000",
+    "address": "Langhorne",
+    "types": "pharmacy,hpStore",
+    "website": "www.google.com",
+    "language": "Urdu"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "afd69e7b9bda7414809fb83725ebec92"
+}
+HTTP/1.1 200 OK
+Date: Sat, 06 Feb 2021 17:00:53 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
